@@ -20,8 +20,8 @@ def get_time_stamp():
 def loginGetCode(user, password):
     r"""1、登录获取Code
 
-    :param user: 账号：邮箱/手机号
-    :param password: 密码
+    :param user: 账号：18155002199
+    :param password: 9992435nrq
     :return: is_phone, location
     """
 
@@ -195,6 +195,6 @@ if __name__ == '__main__':
     password = sys.argv[2]
     pushplus_token = sys.argv[3]
     ##刷步数
-    res = main(user, password, 5000, 8000)
+    res = main(user, password, 5000, 99999)
     # 推送消息
     pushMessage(pushplus_token, "刷步接口调用", res)
